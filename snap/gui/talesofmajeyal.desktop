@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Tales of Maj'Eyal
+Exec=talesofmajeyal
+Comment=Free, open source, roguelike roleplaying fantasy game
+Type=Application
+Icon=${SNAP}/tome.png
+Categories=Game;
+StartupNotify=true
