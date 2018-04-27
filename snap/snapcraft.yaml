@@ -17,7 +17,7 @@ parts:
     plugin: dump
     source: scripts
   tengine:
-    source: https://te4.org/do-download/tome-1.5.8/t-engine4-linux64-1.5.8.tar.bz2
+    source: http://te4.org/dl/t-engine/t-engine4-src-1.5.8.tar.bz2
     after: [ desktop-glib-only ]
     plugin: make
     artifacts:
