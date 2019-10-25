@@ -1,5 +1,5 @@
 name: talesofmajeyal
-version: '1.5.10'
+version: '1.6.0'
 summary: A free, open source roguelike RPG
 description: |
   Tales of Maj’Eyal is a free, open source roguelike RPG, featuring tactical turn-based combat and advanced character building.  Play as one of many unique races and classes in the lore-filled world of Eyal, exploring random dungeons, facing challenging battles, and developing characters with your own tailored mix of abilities and powers.  With a modern graphical and customisable interface, intuitive mouse control, streamlined mechanics and deep, challenging combat, Tales of Maj’Eyal offers engaging roguelike gameplay for the 21st century.
@@ -17,7 +17,7 @@ parts:
     plugin: dump
     source: scripts
   tengine:
-    source: http://te4.org/dl/t-engine/t-engine4-src-1.5.10.tar.bz2
+    source: http://te4.org/dl/t-engine/t-engine4-src-1.6.0.tar.bz2
     after: [ desktop-glib-only ]
     plugin: make
     artifacts:
