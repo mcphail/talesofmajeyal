@@ -35,7 +35,7 @@ parts:
       - libsdl2-ttf-dev
       - libopenal-dev
       - libogg-dev
-      - libpng12-dev
+      - libpng-dev
       - libvorbis-dev
       - libglu1-mesa-dev
       - libfreetype6-dev
