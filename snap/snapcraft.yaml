@@ -48,6 +48,13 @@ parts:
       - libsdl2-image-2.0-0
       - libsdl2-ttf-2.0-0
       - libopenal1
+      - libmad0
+      - libogg0
+      - libvorbis0a
+      - libpng16-16
+      - libgl1-mesa-glx
+      - libglu1-mesa
+      - libvorbisfile3
     override-build: |
       sed -i "s|opt/SDL-2.0|usr|" premake4.lua
       premake4 gmake
