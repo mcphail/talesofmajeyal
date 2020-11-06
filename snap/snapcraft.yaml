@@ -20,7 +20,7 @@ parts:
     source: scripts
 
   tengine:
-    source: https://te4.org/dl/t-engine/t-engine4-src-1.7.0-beta6.tar.bz2
+    source: https://te4.org/dl/t-engine/t-engine4-src-1.7.0.tar.bz2
     plugin: make
     artifacts:
       - .
